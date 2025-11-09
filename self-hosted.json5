@@ -1,13 +1,13 @@
 {
-  "gitAuthor": "XDEV Renovate Bot <renovate@xdev-software.de>",
+  "gitAuthor": "Your Renovate Bot <renovate@yourdomain.com>",
   "onboarding": false,
   "platform": "github",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 10,
   "autodiscover": true,
   "autodiscoverFilter": [
-    "xdev-software/*",
-    "RapidClipse/*"
+    "your-org/*",
+    "another-org/*"
   ],
   "hostRules": [
     {
