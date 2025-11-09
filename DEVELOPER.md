@@ -82,7 +82,7 @@ renovate-selfhosted/
 ```json5
 {
   // Bot identity in commits and PRs
-  "gitAuthor": "XDEV Renovate Bot <renovate@xdev-software.de>",
+  "gitAuthor": "Your Renovate Bot <renovate@yourdomain.com>",
   
   // Disable onboarding PRs (assumes repos already configured)
   "onboarding": false,
@@ -97,8 +97,8 @@ renovate-selfhosted/
   // Automatically discover repositories
   "autodiscover": true,
   "autodiscoverFilter": [
-    "xdev-software/*",        // All repos in xdev-software org
-    "RapidClipse/*"           // All repos in RapidClipse org
+    "your-org/*",             // All repos in your org
+    "another-org/*"           // All repos in another org
   ],
   
   // Performance and rate limiting for API calls

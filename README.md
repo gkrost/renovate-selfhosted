@@ -1,5 +1,3 @@
-[![Renovate](https://github.com/xdev-software/renovate-selfhosted/actions/workflows/renovate.yml/badge.svg)](https://github.com/xdev-software/renovate-selfhosted/actions/workflows/renovate.yml)
-
 # renovate-selfhosted
 
 ## What is this?
@@ -12,7 +10,7 @@ Get started with automated dependency updates in 3 simple steps:
 
 ### 1. Fork or Clone This Repository
 ```bash
-git clone https://github.com/xdev-software/renovate-selfhosted.git
+git clone https://github.com/your-org/renovate-selfhosted.git
 cd renovate-selfhosted
 ```
 
