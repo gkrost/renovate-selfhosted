@@ -12,7 +12,7 @@ Get started with automated dependency updates in 3 simple steps:
 
 ### 1. Fork or Clone This Repository
 ```bash
-git clone https://github.com/gkrost/renovate-selfhosted.git
+git clone https://github.com/xdev-software/renovate-selfhosted.git
 cd renovate-selfhosted
 ```
 
@@ -22,12 +22,12 @@ Add the following secrets to your repository settings:
 - `RENOVATE_GIT_PRIVATE_KEY` (optional): SSH private key for accessing private repositories
 
 ### 3. Customize Configuration
-Edit `self-hosted.json5` to set your organization and preferences:
+Edit `self-hosted.json5` to set your organization and preferences (replace with your actual values):
 ```json5
 {
-  "gitAuthor": "Your Renovate Bot <renovate@yourdomain.com>",
+  "gitAuthor": "Your Renovate Bot <renovate@yourdomain.com>",  // Replace with your bot name and email
   "autodiscoverFilter": [
-    "your-org/*"
+    "your-org/*"  // Replace with your organization or repository patterns
   ]
 }
 ```

@@ -249,7 +249,7 @@ Include or exclude specific repositories:
 
 Update the action version in `renovate.yml`:
 ```yaml
-- uses: renovatebot/github-action@v43.0.20  # Update this
+- uses: renovatebot/github-action@v43.0.20  # Check releases for latest version
 ```
 
 Check [renovatebot/github-action releases](https://github.com/renovatebot/github-action/releases).
@@ -341,7 +341,7 @@ gh run view <run-id> --log | grep "repository=your-org/your-repo"
 1. Reduce `maxRequestsPerSecond` in `self-hosted.json5`
 2. Add delay between repositories:
    ```json5
-   "repositoryDelay": 5000  // 5 seconds between repos
+   "repositoryDelay": 5000  // 5000ms (5 seconds) between repos
    ```
 3. Use authenticated GitHub App instead of PAT
 
